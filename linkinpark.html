@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Spotify</title>
+    </head>
+    <body>
+        <!-- This page is created by JAYA
+        and uploaded on github by JAYA
+        visit my github profile : ijaya19
+        https://github.com/ijaya19/ -->
+        <div class="container">
+            <aside>
+                <div class="menu">
+                    <a href="index.html"><span><img src="img/home.svg" alt=""></span>Home</a>
+                    <a href="search.html"><span><img src="img/search.svg" alt=""></span>Search</a>
+                    <a href="#"><span><img src="img/library.svg" alt=""></span>Your Library</a> <br>
+                    <a href="#">P L A Y L I S T</a> <br>
+                    <a href="liked.html"><span><img src="img/heart.svg" alt=""></span>Liked Songs</a>
+                    <a class="active" href="#"><span><img src="https://i.scdn.co/image/ab67616d0000b273e2f039481babe23658fc719a" alt="" width="30px" height="30px"></span>Linkin Park</a>
+                    <hr style="border: 1px solid grey;">
+                    <br>
+                </div>
+            </aside>
+            <section>
+                <!-- Header -->
+                <header style="background-color:rgb(30, 120, 48);">
+                    <div class="bot_prev_next">
+                        <a href="index.html"><span class="btn_prev"><img src="img/prev.svg" alt=""></span></a>
+                        <span class="btn_next"><img src="img/next.svg" alt=""></span>
+                    </div>
+                    <div class="subscription">
+                        <div class="perfil">
+                            <span class="user-cir"><img src="img/user.svg" alt=""></span>
+                            <span class="user-name">User</span>
+                        </div>
+                    </div>
+                </header>
+                <!-- Recent  -->
+                <div class="recent-container" style="background-image: linear-gradient(rgba(27, 194, 60, 0.549),rgb(34, 32, 32));">
+                    <h2>Linkin Park</h2><br>
+                    <div class="playlist-image-container">
+                        <div class="image-data">
+                            <div class="data c">
+                                <h3><span> 3 songs | 10 min</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playing-songs">
+                    <div class="playing-songs-container">
+                        <div class="songs-container1">
+                            <div class="icon-music">
+                                <a class="fas fa-music" href="#"><img src="img/music.jpg" width="30px" height="30px" alt=""></a>
+                             </div> 
+                             <div class="songs-container11">
+                                 <h2 class="songs-text">Numb</h2>
+                                 <h4 class="songs-details">Lorem ipsum dolor sit amet consectetur adipisicing </h4>
+                             </div> 
+                        </div>
+                        <div class="songs-contaner2">
+                            <h3 class="songs-text">3:06</h3>
+                            <audio src="audio/Numb.mp3" id="myAudioLinkin1"></audio>
+                            <a href="#"><img src="img/play.svg" width="30px" height="30px" alt="" onClick="playMyAudioLinkin1()"></a>
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eo_circle_green_pause.svg/2048px-Eo_circle_green_pause.svg.png" width="30px" height="30px" alt="" onClick="pauseMyAudioLinkin1()"></a>
+                        </div>
+                     </div>
+                     <div class="playing-songs-container">
+                         <div class="songs-container1">
+                              <div class="icon-music">
+                                <a class="fas fa-music" href="#"><img src="img/music.jpg" width="30px" height="30px" alt=""></a>
+                              </div> 
+                              <div class="songs-container11">
+                                  <h2 class="songs-text">In The End</h2>
+                                  <h4 class="songs-details">Lorem ipsum dolor sit amet consectetur adipisicing </h4>
+                              </div> 
+                         </div>
+                         <!-- This page is created by JAYA
+                        and uploaded on github by JAYA
+                        visit my github profile : ijaya19
+                        https://github.com/ijaya19/ -->
+                         <div class="songs-contaner2">
+                             <h3 class="songs-text">3:43</h3>
+                             <audio src="audio/It Doesn't Even Matter.mp3" id="myAudioLinkin2"></audio>
+                            <a href="#"><img src="img/play.svg" width="30px" height="30px" alt="" onClick="playMyAudioLinkin2()"></a>
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eo_circle_green_pause.svg/2048px-Eo_circle_green_pause.svg.png" width="30px" height="30px" alt="" onClick="pauseMyAudioLinkin2()"></a>
+                         </div>
+                      </div>
+                      <div class="playing-songs-container">
+                         <div class="songs-container1">
+                              <div class="icon-music">
+                                <a class="fas fa-music" href="#"><img src="img/music.jpg" width="30px" height="30px" alt=""></a>
+                              </div> 
+                              <div class="songs-container11">
+                                  <h2 class="songs-text">Numb/Encode</h2>
+                                  <h4 class="songs-details">Lorem ipsum dolor sit amet consectetur adipisicing </h4>
+                              </div> 
+                         </div>
+                         <div class="songs-contaner2">
+                             <h3 class="songs-text">3:28</h3>
+                             <audio src="audio/04 Jay-Z - Numb _ Encore.mp3" id="myAudioLinkin3"></audio>
+                            <a href="#"><img src="img/play.svg" width="30px" height="30px" alt="" onClick="playMyAudioLinkin3()"></a>
+                            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Eo_circle_green_pause.svg/2048px-Eo_circle_green_pause.svg.png" width="30px" height="30px" alt="" onClick="pauseMyAudioLinkin3()"></a>
+                         </div>
+                      </div>
+                    </div>
+            </section>
+            <footer>
+                <div class="music-player"> 
+                    <div class="player-content-1">
+                        <div class="player-icons">
+                            <a class="fas fa-desktop" href="#"><img src="img/desktop.jpg" width="30px" height="30px" alt=""></a>
+                            <i class=""></i>
+                        </div>
+                    </div>
+                    <div class="player-content-2">
+                        <p>NOW PLAYING Linkin Park Playlist</p>
+                    </div>
+                    <div class="player-content-3">
+                        <a class="fas fa-volume-up" href="#"><img src="img/volume.jpg" width="30px" height="30px" alt="" id="myImage" onclick="changeImage()"></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script>
+            function playMyAudioLinkin1(){
+              document.getElementById("myAudioLinkin1").play();
+            }
+            function pauseMyAudioLinkin1(){
+              document.getElementById("myAudioLinkin1").pause();
+            }
+            function playMyAudioLinkin2(){
+              document.getElementById("myAudioLinkin2").play();
+            }
+            function pauseMyAudioLinkin2(){
+              document.getElementById("myAudioLinkin2").pause();
+            }
+            function playMyAudioLinkin3(){
+              document.getElementById("myAudioLinkin3").play();
+            }
+            function pauseMyAudioLinkin3(){
+              document.getElementById("myAudioLinkin3").pause();
+            }
+            function changeImage() {
+                var image = document.getElementById('myImage');
+                if (image.src.match("bulbon")) {
+                    image.src = "img/volume.jpg";
+                } else {
+                    image.src = "img/mute-off.png";
+                }
+            }
+           </script>
+    </body>
+</html>
+<!-- This page is created by JAYA
+and uploaded on github by JAYA
+visit my github profile : ijaya19
+https://github.com/ijaya19/ -->
